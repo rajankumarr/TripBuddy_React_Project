@@ -1,0 +1,73 @@
+.add-trip{
+     /* position: absolute; */
+  background: black; 
+  height: 100vh;
+  width: 100%;
+  display: flex;
+}
+
+.banner{
+    height: 100%;
+    width: 100%;
+  /* background-size: cover; */
+  position: absolute;
+
+    
+}
+.banner img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  opacity: 30%;
+}
+.add-button{
+  position: relative;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  /* background-color: red; */
+  margin-top: 320px;
+  margin-left: 180px;
+  /* background-color: red; */
+}
+.add-button p{
+  font-family:josefin sans;
+  font-size: 4rem;
+  color: white;
+
+}
+.button{
+  height: 50px;
+  width: 300px;
+  color: white;
+  background-color:rgb(255, 0, 0);
+  border: 1px solid black;
+  border-radius: 5px;
+  /* border-style: dashed; */
+  cursor: pointer;
+  display: flex;
+  gap: 10px;
+  /* font-size: 20px; */
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-left: 320px;
+  
+}
+.popup-page{
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  backdrop-filter: blur(3px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  /* margin: 50px; */
+
+  /* top: 100px;
+  left: 200px; */
+  
+}
+

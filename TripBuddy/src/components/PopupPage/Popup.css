@@ -1,0 +1,64 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+.popup-content{
+    height: 400px;
+    width: 600px;
+    background-color:#EEEEEE;
+    border: 2px solid black;
+    border-radius: 8px;
+    /* padding: 5px; */
+}
+.heading p{
+    display: flex;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+    justify-content: center;
+}
+.heading{
+    background-color:black;
+    color: white;
+    height: 30px;
+    width: 100%;
+    margin: 0%;
+}
+.popup{
+    flex-direction: column;
+    display: flex;
+    gap: 5px;
+}
+.close-btn{
+    place-self: end;
+}
+.newtrip-details{
+    padding: 5px;
+    /* margin-top: 5px; */
+    
+}
+.newtrip-details input{
+    height: 30px;
+    width: 205px;
+    /* background: transparent;
+    outline-style: none; */
+    
+
+}
+.date input{
+    height: 2px;
+    width: 140px;
+    
+    
+}
+.other-details{
+    margin-top: 5px;
+}
+.add-btn{
+    height: 30px;
+    width: 50px;
+    margin-left: 10px;
+}
+.add-btn:hover{
+    background-color: black;
+    color: white;
+}
